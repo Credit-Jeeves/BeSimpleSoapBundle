@@ -24,6 +24,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:Credit-Jeeves/BeSimpleSoapClient.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:BeSimple/BeSimpleSoapCommon"
         }
     ],
     "require": {
@@ -34,7 +38,7 @@
         "ass/xmlsecurity": "~1.0",
         "symfony/framework-bundle": "4.*",
         "symfony/twig-bundle": "4.*",
-        "zendframework/zend-mime": "2.1.*"
+        "laminas/laminas-mime": "^2.8"
     },
     "suggest": {
         "besimple/soap-client": "dev-master",
